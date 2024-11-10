@@ -1,3 +1,18 @@
-Pickup Earliest*,Pickup Latest,Length (ft)*,Weight (lbs)*,Full/Partial*,Equipment*,Use Private Network*,Private Network Rate,Allow Private Network Booking,Allow Private Network Bidding,Use DAT Loadboard*,DAT Loadboard Rate,Allow DAT Loadboard Booking,Use Extended Network,Contact Method*,Origin City*,Origin State*,Origin Postal Code,Destination City*,Destination State*,Destination Postal Code,Comment,Commodity,Reference ID
-11/11/2024,11/11/2024,48,300064.0,Full,F,no,,no,no,yes,,no,no,email,Hebron,KY,41048,Irvington,VA,22480,EMAIL ME JESUS.VEGA@NTGFREIGHT.COM | LOAD ID=1,tbd,1
-11/11/2024,11/11/2024,53,37500.0,Full,V,no,,no,no,yes,,no,no,email,Lake Forest,CA,41048,Dallas,TX,22480,EMAIL ME JESUS.VEGA@NTGFREIGHT.COM | LOAD ID=1,tbd,1
+Pickup Earliest*,Pickup Latest,Length (ft)*,Weight (lbs)*,Full/Partial*,Equipment*,Use Private Network*,Private Network Rate,Allow Private Network Booking,Allow Private Network Bidding,Use DAT Loadboard*,DAT Loadboard Rate,Allow DAT Loadboard Booking,Use Extended Network,Contact Method*,Origin City*,Origin State*,Origin Postal Code,Destination City*,Destination State*,Destination Postal Code,Comment,Commodity,Reference ID,Load
+11/11/2024,11/11/2024,53,30000,Full,V,no,,no,no,yes,,no,no,email,Adairsville,GA,30103,Jacksonville,FL,32254,EMAIL ME JESUS.VEGA@NTGFREIGHT.COM | LOAD ID=1,tbd,1,8079385
+11/11/2024,11/11/2024,53,37500,Full,V,no,,no,no,yes,,no,no,email,Lake Forest,CA,20322,Dallas,TX,92630,EMAIL ME JESUS.VEGA@NTGFREIGHT.COM | LOAD ID=2,tbd,2,8079280
+11/11/2024,11/11/2024,53,37500,Full,V,no,,no,no,yes,,no,no,email,Lake Forest,CA,20322,Dallas,TX,92630,EMAIL ME JESUS.VEGA@NTGFREIGHT.COM | LOAD ID=3,tbd,3,8079305
+11/11/2024,11/11/2024,53,42000,Full,V,no,,no,no,yes,,no,no,email,Edison,NJ,08817-2209,Kingston,ON,K7L 5G3,EMAIL ME JESUS.VEGA@NTGFREIGHT.COM | LOAD ID=4,tbd,4,8069069
+11/11/2024,11/11/2024,53,23000,Full,V,no,,no,no,yes,,no,no,email,Mishawaka,IN,46544,Wentzville,MO,63385,EMAIL ME JESUS.VEGA@NTGFREIGHT.COM | LOAD ID=5,tbd,5,8079043
+11/11/2024,11/11/2024,53,28000,Full,V,no,,no,no,yes,,no,no,email,Lebanon,IN,46052-8858,Memphis,TN,38141,EMAIL ME JESUS.VEGA@NTGFREIGHT.COM | LOAD ID=6,tbd,6,8077596
+11/11/2024,11/11/2024,53,37531,Full,V,no,,no,no,yes,,no,no,email,Las Vegas,NV,89115-3467,Pleasant View,UT,84414,EMAIL ME JESUS.VEGA@NTGFREIGHT.COM | LOAD ID=7,tbd,7,8067301
+11/11/2024,11/11/2024,53,40038,Full,V,no,,no,no,yes,,no,no,email,Hanford,CA,10801,Mayville,WI,93230,EMAIL ME JESUS.VEGA@NTGFREIGHT.COM | LOAD ID=8,tbd,8,8067838
+11/11/2024,11/11/2024,53,32687,Full,V,no,,no,no,yes,,no,no,email,West Memphis,AR,72301,Belcamp,MD,61303,EMAIL ME JESUS.VEGA@NTGFREIGHT.COM | LOAD ID=9,tbd,9,8079498
+11/11/2024,11/11/2024,48,44880,Full,F,no,,no,no,yes,,no,no,email,Thomasville,NC,27360,Marble,NC,88888,EMAIL ME JESUS.VEGA@NTGFREIGHT.COM | LOAD ID=10,tbd,10,8074730
+11/11/2024,11/11/2024,53,10000,Full,V,no,,no,no,yes,,no,no,email,Pontotoc,MS,23007,Baton Rouge,LA,38863,EMAIL ME JESUS.VEGA@NTGFREIGHT.COM | LOAD ID=11,tbd,11,8070224
+11/11/2024,11/11/2024,48,300064,Full,F,no,,no,no,yes,,no,no,email,Hebron,KY,41048,Irvington,VA,22480,EMAIL ME JESUS.VEGA@NTGFREIGHT.COM | LOAD ID=12,tbd,12,8070417
+11/11/2024,11/11/2024,1,4000,Full,V,no,,no,no,yes,,no,no,email,Pontotoc,MS,23007,Lemoore,CA,38863,EMAIL ME JESUS.VEGA@NTGFREIGHT.COM | LOAD ID=13,tbd,13,8073239
+11/11/2024,11/11/2024,48,22813,Full,F,no,,no,no,yes,,no,no,email,Hebron,KY,41048,Irvington,VA,22480,EMAIL ME JESUS.VEGA@NTGFREIGHT.COM | LOAD ID=14,tbd,14,8070420
+11/11/2024,11/11/2024,53,40502,Full,V,no,,no,no,yes,,no,no,email,San Bernardino,CA,92407,Salt Lake City,UT,84115,EMAIL ME JESUS.VEGA@NTGFREIGHT.COM | LOAD ID=15,tbd,15,8065016
+11/11/2024,11/11/2024,53,9884,Full,V,no,,no,no,yes,,no,no,email,Fort Worth,TX,14901,Morrow,GA,76177-2722,EMAIL ME JESUS.VEGA@NTGFREIGHT.COM | LOAD ID=16,tbd,16,8069139
+11/11/2024,11/11/2024,53,11964,Full,V,no,,no,no,yes,,no,no,email,Rialto,CA,92377,Missouri City,TX,77489-1306,EMAIL ME JESUS.VEGA@NTGFREIGHT.COM | LOAD ID=17,tbd,17,8075937

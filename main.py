@@ -8,7 +8,7 @@ bloques = texto.split("\n-------------------\n")
 # Paso 2: Inicializar una lista para almacenar los diccionarios con los datos de cada paquete
 datos_paquetes = []
 
-zip_code_pattern = r'\b\d{5}(?:-\d{4})?\b'
+zip_code_pattern = r'\b\d{5}(?:-\d{4})?\b|\b[A-Za-z]\d[A-Za-z] \d[A-Za-z]\d\b'
 
 # Buscar todos los códigos postales en el texto
 zip_codes = re.findall(zip_code_pattern, texto)
@@ -35,19 +35,19 @@ def carro_type(eqp:str):
         typec="V"
     else:
         length=1
-        typec=V
+        typec="V"
     return length,typec
-
+contador = 1
 # Paso 3: Iterar sobre cada bloque de datos
 for bloque in bloques:
-    contador = 1
+    print(contador)
     # Dividir el bloque por líneas
     lineas = bloque.splitlines()
 
     # Inicializar un diccionario para almacenar los datos de un solo paquete
     datos = {}
-    zip_codes = re.findall(zip_code_pattern, texto)
-
+    zip_codes = re.findall(zip_code_pattern, bloque)
+    
     # Iterar sobre las líneas y extraer las claves y valores
     for i, linea in enumerate(lineas):
         if "Origin" in linea:
@@ -79,15 +79,20 @@ for bloque in bloques:
             datos["Comment"]=f"EMAIL ME JESUS.VEGA@NTGFREIGHT.COM | LOAD ID={contador}"
         elif "Weight (Lbs)" in linea:
              string_con_formato=lineas[i + 1].strip()
-             numero_sin_formato = float(string_con_formato.replace(",", "").rstrip("0").rstrip("."))
-             datos['Weight (lbs)*'] = str(numero_sin_formato)
+             print(f"load:{datos["Load"]}---{string_con_formato}")
+             if string_con_formato!="Packaging Type":
+                numero_sin_formato = float(string_con_formato.replace(",", "").rstrip("0").rstrip("."))
+             datos['Weight (lbs)*'] = str(int(numero_sin_formato))
         elif "Load #" in linea:
-            datos['Load'] = linea.split(" ")[1]
+            load = linea.split(" ")[1]
+            datos['Load'] = load[1::]
+            
             
         datos["Reference ID"]=f"{contador}"
         datos["Commodity"]="tbd"
 
     # Agregar el diccionario de datos del paquete a la lista
+    contador+=1
     datos_paquetes.append(datos)
 
 orden_encabezados = [
@@ -96,16 +101,16 @@ orden_encabezados = [
     "Allow Private Network Bidding", "Use DAT Loadboard*", "DAT Loadboard Rate",
     "Allow DAT Loadboard Booking", "Use Extended Network", "Contact Method*",
     "Origin City*", "Origin State*", "Origin Postal Code", "Destination City*",
-    "Destination State*", "Destination Postal Code", "Comment", "Commodity", "Reference ID"
+    "Destination State*", "Destination Postal Code", "Comment", "Commodity", "Reference ID","Load"
 ]
 
 
 # Paso 4: Mostrar los resultados para cada paquete
-for idx, paquete in enumerate(datos_paquetes, start=1):
+"""for idx, paquete in enumerate(datos_paquetes, start=1):
     print(f"Datos del Paquete {idx}:")
     for clave, valor in paquete.items():
         print(f"  {clave}: {valor}")
-    print("\n" + "-"*40 + "\n")
+    print("\n" + "-"*40 + "\n")"""
 
 with open('datos_paquetes.csv', 'w', newline='', encoding='utf-8') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=orden_encabezados)

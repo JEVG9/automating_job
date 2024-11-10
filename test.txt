@@ -1,0 +1,1645 @@
+Load #8079385
+Order #
+643b f0dea
+|
+Quote #
+f7de d368f
+|
+Available
+|
+Southeast
+Beon Carrier Copy
+Manage Posting
+Origin
+11/11/2024
+Adairsville, GA
+09:00 - 17:00 ET
+Destination
+11/11/2024
+Jacksonville, FL
+07:30 - 15:00 ET
+48FORTY SOLUTIONS, LLC
+Jeffrey Hillman
+Spot
+General Information Map It
+Equipment Group Icon
+53FT Dry Van
+# Of Stops
+02
+Distance (Miles)
+406
+Weight (Lbs)
+30,000.00
+# of Pallets
+468
+Packaging Type
+PALLETS
+CTR#
+-
+Cargo Category
+Lumber / Wood
+Cargo Value
+$1,000.00-$50,000.00
+PO#
+309-0007567
+Shipment ID
+NA
+BOL#
+NA
+MBOL#
+NA
+Stop Info and Reference #s
+303 - 48forty Solutions Adairsville
+2427 Highway 140 Nw, Adairsville,
+GA 30103, USA
+Pickup Date/Time
+FCFS
+11/11/2024 09:00 - 17:00 ET
+Planned Date and Time Range
+-
+Location Hours
+09:00 - 17:00 ET
+Appt #
+NA
+Pickup #
+NA
+PO #
+NA
+Stop Special Requirements
+-
+Instructions
+Ref # 309-0003225
+309- 48forty Solutions
+5402 West 1st Street, Jacksonville,
+FL 32254, USA
+Delivery Date/Time
+FCFS
+11/11/2024 07:30 - 15:00 ET
+Planned Date and Time Range
+-
+Location Hours
+07:30 - 15:00 ET
+Appt #
+NA
+Delivery #
+NA
+PO #
+NA
+
+-------------------
+
+Load #8079280
+Order #
+a50b 2429d
+|
+Quote #
+b3d1 309a2
+|
+Available
+|
+Southwest
+Beon Carrier Copy
+Manage Posting
+Hot Load
+Origin
+11/11/2024
+Lake Forest, CA
+08:00 - 16:00 PT
+Destination
+11/13/2024
+Dallas, TX
+08:00 - 16:00 CT
+LEOCH BATTERY CORP
+Alexander Olds
+Spot
+General Information Map It
+Equipment Group Icon
+53FT Dry Van
+# Of Stops
+02
+Distance (Miles)
+1,439
+Weight (Lbs)
+37,500.00
+# of Pallets
+18
+Packaging Type
+PALLETS
+CTR#
+-
+Cargo Category
+Electronics / Appliances
+Cargo Value
+$50,000.00-$100,000.00
+PO#
+081124-JS
+Shipment ID
+NA
+BOL#
+NA
+MBOL#
+NA
+Stop Info and Reference #s
+Leoch Battery Corporation
+20322 Valencia Circle, Lake Forest,
+CA 92630, USA
+Pickup Date/Time
+FCFS
+11/11/2024 08:00 - 16:00 PT
+Planned Date and Time Range
+-
+Location Hours
+08:00 - 16:00 PT
+Appt #
+NA
+Pickup #
+NA
+PO #
+NA
+Stop Special Requirements
+-
+Instructions
+-
+Leoch Battery Corp - Dallas
+10350 Brockwood Road, Dallas,
+TX 75238, USA
+Delivery Date/Time
+FCFS
+11/13/2024 08:00 - 16:00 CT
+Planned Date and Time Range
+-
+Location Hours
+08:00 - 16:00 CT
+Appt #
+NA
+Delivery #
+NA
+PO #
+NA
+
+-------------------
+
+Load #8079305
+Order #
+3e42 2314d
+|
+Quote #
+b3d1 309a2
+|
+Available
+|
+Southwest
+Beon Carrier Copy
+Manage Posting
+Hot Load
+Origin
+11/11/2024
+Lake Forest, CA
+08:00 - 16:00 PT
+Destination
+11/13/2024
+Dallas, TX
+08:00 - 16:00 CT
+LEOCH BATTERY CORP
+Alexander Olds
+Spot
+General Information Map It
+Equipment Group Icon
+53FT Dry Van
+# Of Stops
+02
+Distance (Miles)
+1,439
+Weight (Lbs)
+37,500.00
+# of Pallets
+18
+Packaging Type
+PALLETS
+CTR#
+-
+Cargo Category
+Electronics / Appliances
+Cargo Value
+$50,000.00-$100,000.00
+PO#
+081124-JS
+Shipment ID
+NA
+BOL#
+NA
+MBOL#
+NA
+Stop Info and Reference #s
+Leoch Battery Corporation
+20322 Valencia Circle, Lake Forest,
+CA 92630, USA
+Pickup Date/Time
+FCFS
+11/11/2024 08:00 - 16:00 PT
+Planned Date and Time Range
+-
+Location Hours
+08:00 - 16:00 PT
+Appt #
+NA
+Pickup #
+NA
+PO #
+NA
+Stop Special Requirements
+-
+Instructions
+-
+Leoch Battery Corp - Dallas
+10350 Brockwood Road, Dallas,
+TX 75238, USA
+Delivery Date/Time
+FCFS
+11/13/2024 08:00 - 16:00 CT
+Planned Date and Time Range
+-
+Location Hours
+08:00 - 16:00 CT
+Appt #
+NA
+Delivery #
+NA
+PO #
+NA
+
+-------------------
+
+Load #8069069
+Order #
+5820 38fd3
+|
+Quote #
+f438 0afdc
+|
+Available
+|
+Midwest
+Beon Carrier Copy
+Manage Posting
+Origin
+11/11/2024
+Edison, NJ
+07:00 - 15:00 ET
+Destination
+11/12/2024
+Kingston, ON
+08:00 - 17:00 ET
+H.B. FULLER COMPANY
+Joshua Loukotka
+General Information Map It
+Equipment Group Icon
+53FT Dry Van
+# Of Stops
+02
+Distance (Miles)
+375
+Weight (Lbs)
+42,000.71
+# Of Pallets
+840
+Packaging Type
+na
+CTR#
+-
+Cargo Category
+Printed Material & Packaging
+Cargo Value
+$1,000.00-$50,000.00
+PO#
+0081941218
+Shipment ID
+182685256
+BOL#
+182685256
+MBOL#
+NA
+Stop Info and Reference #s
+EDISON WAREHOUSE US CA
+95 Ethel Rd, 95 ETHEL RD, Edison,
+NJ 08817-2209, USA
+Pickup Date/Time
+FCFS
+11/11/2024 07:00 - 15:00 ET
+Planned Date and Time Range
+11/11/2024 00:00 ET-11/11/2024 00:00 ET
+Location Hours
+07:00 - 15:00 ET
+Appt #
+NA
+Pickup #
+NA
+PO #
+4169081
+Stop Special Requirements
+-
+Instructions
+-
+Cargo Description
+PO #
+Quantity
+Cargo Weight (Lbs)
+42,000.71
+Packaging Type
+-
+-
+840
+-
+ADLERS MAIN TILE INC/CANADIAN TIRE
+113-141 Bath Road, Kingston,
+ON K7L 5G3, CAN
+Delivery Date/Time
+FCFS
+11/12/2024 08:00 - 17:00 ET
+Planned Date and Time Range
+11/13/2024 00:00 ET-11/13/2024 00:00 ET
+Location Hours
+08:00 - 17:00 ET
+Appt #
+NA
+Delivery #
+NA
+PO #
+4169081
+
+-------------------
+
+Load #8079043
+Order #
+de5c 7efbc
+|
+Available
+|
+Midwest
+Beon Carrier Copy
+Manage Posting
+Origin
+11/11/2024
+Mishawaka, IN
+07:00 - 15:00 ET
+Destination
+11/12/2024
+Wentzville, MO
+09:00 CT
+LIPPERT COMPONENTS MANUFACTURING, INC.
+Bryan Mcdermott
+General Information Map It
+Equipment Group Icon
+53FT Dry Van
+# Of Stops
+02
+Distance (Miles)
+399
+Weight (Lbs)
+23,000.00
+# of Pallets
+24
+Packaging Type
+PALLETS
+CTR#
+-
+Cargo Category
+Auto Parts
+Cargo Value
+$1,000.00-$50,000.00
+PO#
+495385143
+Shipment ID
+495385143
+BOL#
+TMC38115759
+MBOL#
+NA
+Stop Info and Reference #s
+Lippert Plant 39B- Lippert Components
+401 South Beiger Street, Mishawaka,
+IN 46544, USA
+Pickup Date/Time
+FCFS
+11/11/2024 07:00 - 15:00 ET
+Planned Date and Time Range
+11/11/2024 07:00 ET-11/11/2024 15:00 ET
+Location Hours
+07:00 - 15:00 ET
+Appt #
+NA
+Pickup #
+NA
+PO #
+NA
+Stop Special Requirements
+-
+Instructions
+No Touch___East side of building, shipping Docks 27-32 receiving Docks 1-12
+Cargo Description
+PO #
+Quantity
+Cargo Weight (Lbs)
+23,000.00
+Packaging Type
+-
+-
+24
+-
+ETRAILERCOM
+101 Enterprise Drive, Wentzville,
+MO 63385, USA
+Delivery Date/Time
+APPT
+11/12/2024 09:00 CT
+Scheduled by , 11/08/2024 14:25 -05
+Planned Date and Time Range
+11/12/2024 09:00 CT-11/12/2024 09:00 CT
+Location Hours
+08:00 - 09:00 CT
+Appt #
+NA
+Delivery #
+NA
+PO #
+NA
+
+-------------------
+
+Load #8077596
+Order #
+dbf7 4ccc1
+|
+Available
+|
+Southeast
+Beon Carrier Copy
+Manage Posting
+Origin
+11/11/2024
+Lebanon, IN
+07:00 - 15:00 ET
+Destination
+11/12/2024
+Memphis, TN
+08:00 - 17:00 CT
+PRYSMIAN CABLES
+Bryan Mcdermott
+ContractedPrimary
+0/Weekly
+
+10/Annually
+
+General Information Map It
+Equipment Group Icon
+53FT Dry Van
+# Of Stops
+02
+Distance (Miles)
+1
+Weight (Lbs)
+28,000.00
+# Of Pallets
+28
+Packaging Type
+-
+CTR#
+-
+Cargo Category
+Construction Equipment
+Cargo Value
+$1,000.00-$50,000.00
+PO#
+23192202
+Shipment ID
+23192202
+BOL#
+27796301
+MBOL#
+NA
+Stop Info and Reference #s
+THE PRYSMIAN GROUP
+311 S Enterprise Blvd, Lebanon,
+IN 46052-8858, USA
+Pickup Date/Time
+FCFS
+11/11/2024 07:00 - 15:00 ET
+Planned Date and Time Range
+11/11/2024 08:00 ET-11/11/2024 08:00 ET
+Location Hours
+07:00 - 15:00 ET
+Appt #
+NA
+Pickup #
+27796301
+PO #
+27796301
+Stop Special Requirements
+-
+Instructions
+USD
+Cargo Description
+PO #
+Quantity
+Cargo Weight (Lbs)
+Packaging Type
+-
+-
+28
+28,000.00
+-
+ANIXTER-MEMPHIS AIS
+4001 HICKORY HILL ROAD, Memphis,
+TN 38141, USA
+Delivery Date/Time
+FCFS
+11/12/2024 08:00 - 17:00 CT
+Planned Date and Time Range
+11/11/2024 15:41 CT-11/11/2024 15:41 CT
+Location Hours
+08:00 - 17:00 CT
+Appt #
+NA
+Delivery #
+NA
+PO #
+27796301
+
+-------------------
+
+Load #8067301
+Order #
+6662 464f8
+|
+Quote #
+7687 13a53
+|
+Available
+|
+West
+Beon Carrier Copy
+Manage Posting
+Origin
+11/11/2024
+Las Vegas, NV
+08:00 - 15:00 PT
+Destination
+11/12/2024
+Pleasant View, UT
+09:00 MT
+H.B. FULLER COMPANY
+Joshua Loukotka
+General Information Map It
+Equipment Group Icon
+53FT Dry Van
+# Of Stops
+02
+Distance (Miles)
+451
+Weight (Lbs)
+37,531.85
+# Of Pallets
+936
+Packaging Type
+-
+CTR#
+-
+Cargo Category
+Printed Material & Packaging
+Cargo Value
+$1,000.00-$50,000.00
+PO#
+0081941147
+Shipment ID
+182653502
+BOL#
+182653502
+MBOL#
+NA
+Stop Info and Reference #s
+SUPERIOR 3RD PARTY LOGISTICS
+2951 Marion Drive, Las Vegas,
+NV 89115-3467, USA
+Pickup Date/Time
+FCFS
+11/11/2024 08:00 - 15:00 PT
+Planned Date and Time Range
+11/11/2024 00:00 PT-11/11/2024 00:00 PT
+Location Hours
+08:00 - 15:00 PT
+Appt #
+NA
+Pickup #
+NA
+PO #
+CQ7758
+Stop Special Requirements
+-
+Instructions
+-
+Cargo Description
+PO #
+Quantity
+Cargo Weight (Lbs)
+Packaging Type
+-
+-
+936
+37,531.85
+-
+ADMIRAL BEVERAGE CORP
+2751 North 1000 West, Pleasant View,
+UT 84414, USA
+Delivery Date/Time
+APPT
+11/12/2024 09:00 MT
+Scheduled by , 11/07/2024 15:43 -05
+Planned Date and Time Range
+11/12/2024 08:30 MT-11/12/2024 00:00 MT
+Location Hours
+09:00 - 09:00 MT
+Appt #
+NA
+Delivery #
+NA
+PO #
+CQ7758
+
+-------------------
+
+Load #8067838
+Order #
+f0b9 1e4b9
+|
+Available
+|
+Midwest
+Beon Carrier Copy
+Manage Posting
+Origin
+11/11/2024
+Hanford, CA
+08:00 - 15:00 PT
+Destination
+11/15/2024
+Mayville, WI
+08:00 CT
+HOOD PACKAGING CORP
+Matthew Truscott
+General Information Map It
+Equipment Group Icon
+53FT Dry Van
+# Of Stops
+02
+Distance (Miles)
+2,137
+Weight (Lbs)
+40,038.00
+# of Pallets
+51,830
+Packaging Type
+PALLETS
+CTR#
+-
+Cargo Category
+Printed Material & Packaging
+Cargo Value
+$50,000.00-$100,000.00
+PO#
+894022860
+Shipment ID
+894022860
+BOL#
+NA
+MBOL#
+NA
+Stop Info and Reference #s
+HOOD PACKAGING CORPORATION - HANFORD
+10801 Iona Avenue, Hanford,
+CA 93230, USA
+Pickup Date/Time
+FCFS
+11/11/2024 08:00 - 15:00 PT
+Planned Date and Time Range
+11/11/2024 08:00 PT-11/11/2024 15:00 PT
+Location Hours
+08:00 - 15:00 PT
+Appt #
+NA
+Pickup #
+26R05910
+PO #
+4502006144
+Stop Special Requirements
+-
+Instructions
+TOTAL DISTANCE = 2137 MI___FLATBEDS MUST HAVE 6' OR 8' TARPS AND 12-15 STRAPS___TRAILER MUST BE CLEAN, FREE OF DAMAGE, AND STRONG ODORS___CAUTION: FOODSTUFF CONTAINER. DO NOT SHIP WITH POISONS, HAZMAT, OR AROMATIC MATERIAL ON SAME VEHICLE.___NO PU APPT REQ 0800-1500 FCFS IF DRIVER IS RUNNING LATE, CARRIER MUST EMAIL hoodpkgtraffic@uberfreight.com___International Shipments/Customs Clearance: For loads from US to CAN, send Customs Docs to cdnimports@livingstonintl.com. For loads from CAN to US, send CustomsDocs to usimports@livingstonintl.com.___DELIVER ON 11/15/24___DELIVER ON 11/15/24,MUST accept macropoint or subject to rate reduction
+Cargo Description
+PO #
+Quantity
+Cargo Weight (Lbs)
+Packaging Type
+Packaging Material
+-
+51,830
+40,038.00
+-
+SAPUTO CHEESE USA INC
+C/O SCUSA MAYVILLE US02 DC, 811 N MAIN ST, Mayville,
+WI 53050, UNITED STATES
+Delivery Date/Time
+APPT
+11/15/2024 08:00 CT
+Scheduled by , 11/05/2024 16:29 -05
+Planned Date and Time Range
+11/15/2024 00:01 CT-11/15/2024 23:59 CT
+Location Hours
+08:00 - 08:00 CT
+Appt #
+NA
+Delivery #
+NA
+PO #
+4502006144
+
+-------------------
+
+Load #8079498
+Order #
+9e63 962a6
+|
+Available
+|
+Northeast
+Beon Carrier Copy
+Manage Posting
+Origin
+11/11/2024
+West Memphis, AR
+14:00 CT
+Destination
+11/13/2024
+Belcamp, MD
+11:00 ET
+WARREN OIL COMPANY, INC.
+Hunter Henson
+General Information Map It
+Equipment Group Icon
+53FT Dry Van
+# Of Stops
+02
+Distance (Miles)
+948
+Weight (Lbs)
+32,687.00
+# Of Pallets
+1,045
+Packaging Type
+-
+CTR#
+-
+Cargo Category
+Household Goods
+Cargo Value
+$50,000.00-$100,000.00
+PO#
+894287744
+Shipment ID
+894287744
+BOL#
+NA
+MBOL#
+NA
+Stop Info and Reference #s
+WARREN OIL- WEST MEMPHIS
+915 East Jefferson Avenue, West Memphis,
+AR 72301, USA
+Pickup Date/Time
+APPT
+11/11/2024 14:00 CT
+Scheduled by , 11/08/2024 15:52 -05
+Planned Date and Time Range
+11/11/2024 08:00 CT-11/11/2024 17:00 CT
+Location Hours
+08:00 - 17:00 CT
+Appt #
+NA
+Pickup #
+1456302
+PO #
+61303
+Stop Special Requirements
+-
+Instructions
+***TANKER ENDORSEMENT REQUIRED*** - No reefers or roll-up doors. - Clean and odor-free with no holes. - Driver must accept Macropoint or approved tracking service before pick up, or all accessorial requests will be auto-rejected, and you risk being removed from the load - In and out times must be on BOL/POD or detention, and layover requests will be rejected. - Lumpers are pre-approved and reimbursed with a receipt. - To request assistance, you must have the following details ready: - A person's name at the facility, the facility name, a number for the facility
+Cargo Description
+PO #
+Quantity
+Cargo Weight (Lbs)
+Packaging Type
+-
+-
+1,045
+32,687.00
+-
+TILLEY CHEMICAL CO.
+1211 Belmar Dr, Belcamp,
+MD 21017-1206, USA
+Delivery Date/Time
+APPT
+11/13/2024 11:00 ET
+Scheduled by , 11/08/2024 15:52 -05
+Planned Date and Time Range
+11/13/2024 00:00 ET-11/13/2024 00:00 ET
+Location Hours
+00:00 - 11:00 ET
+Appt #
+NA
+Delivery #
+NA
+PO #
+61303
+
+-------------------
+
+Load #8074730
+Order #
+bd9e 54ab7
+|
+Available
+|
+Southeast
+Beon Carrier Copy
+Manage Posting
+Origin
+11/11/2024
+Thomasville, NC
+08:00 - 14:00 ET
+Destination
+11/12/2024
+Marble, NC
+08:00 - 14:00 ET
+ENNIS-FLINT
+Matthew Truscott
+General Information Map It
+Equipment Group Icon
+48FT Flatbed
+# Of Stops
+02
+Distance (Miles)
+252
+Weight (Lbs)
+44,880.00
+# Of Pallets
+880
+Packaging Type
+-
+CTR#
+-
+Cargo Category
+Construction Equipment
+Cargo Value
+$50,000.00-$100,000.00
+PO#
+894172237
+Shipment ID
+894172237
+BOL#
+NA
+MBOL#
+NA
+Stop Info and Reference #s
+ENNIS FLINT - BLDG A
+505 County Line Road, Thomasville,
+NC 27360, USA
+Pickup Date/Time
+FCFS
+11/11/2024 08:00 - 14:00 ET
+Planned Date and Time Range
+11/11/2024 08:00 ET-11/11/2024 15:00 ET
+Location Hours
+08:00 - 14:00 ET
+Appt #
+NA
+Pickup #
+NA
+PO #
+SO-00651302-01-1
+Stop Special Requirements
+-
+Instructions
+TOTAL DISTANCE = 252 MI______Auction ID: 5052863______BOL NOTESPLEASE SHIP FOR DELIVERY 11/11FLAT BED REQUIREDDRIVER IS REQUIRED TO CA___LL 24 HOURS PRIOR TO DELIVERY POC KALEB ELKINS 704-728-2888 OR MIKE ADCOCK 251-4___58-7079___TARPS REQUIRED ON ALL FB SHIPMENTS___Hazardous Material Emergency ??88888 Call Chemtrec: 24 Hour # 1-800-424-9300___FCFS,MUST accept macropoint or subject to rate reduction
+Cargo Description
+PO #
+Quantity
+Cargo Weight (Lbs)
+Packaging Type
+-
+-
+880
+44,880.00
+-
+TRP / NC
+5426 Slow Creek Road, GENERAL DELIVERY, Marble,
+NC 28905-8301, USA
+Delivery Date/Time
+FCFS
+11/12/2024 08:00 - 14:00 ET
+Planned Date and Time Range
+11/11/2024 08:00 ET-11/11/2024 16:00 ET
+Location Hours
+08:00 - 14:00 ET
+Appt #
+NA
+Delivery #
+NA
+PO #
+SO-00651302-01-1
+
+-------------------
+
+Load #8070224
+Order #
+8182 237de
+|
+Quote #
+8a11 23007
+|
+Available
+|
+Southwest
+Beon Carrier Copy
+Manage Posting
+Origin
+11/11/2024
+Pontotoc, MS
+08:00 - 14:00 CT
+Destination
+11/12/2024
+Baton Rouge, LA
+12:00 - 14:00 CT
+ECS - EATON CUSTOM SEATING, LLC
+Jeffrey Hillman
+Spot
+General Information Map It
+Equipment Group Icon
+53FT Dry Van
+# Of Stops
+02
+Distance (Miles)
+358
+Weight (Lbs)
+10,000.00
+# of Pieces
+99
+Packaging Type
+PIECES
+CTR#
+-
+Cargo Category
+Furniture
+Cargo Value
+$1,000.00-$50,000.00
+PO#
+COUNTRY INN & SUITES
+Shipment ID
+NA
+BOL#
+NA
+MBOL#
+NA
+Stop Info and Reference #s
+EATON CUSTOM SEATING
+263 Coffee Street, Pontotoc,
+MS 38863, USA
+Pickup Date/Time
+FCFS
+11/11/2024 08:00 - 14:00 CT
+Planned Date and Time Range
+-
+Location Hours
+08:00 - 14:00 CT
+Appt #
+NA
+Pickup #
+NA
+PO #
+NA
+Stop Special Requirements
+-
+Instructions
+MUST LOAD BY 2PM
+Cargo Description
+PO #
+Quantity
+Cargo Weight (Lbs)
+Packaging Type
+-
+-
+-
+10,000.00
+-
+COUNTRY INN & SUITES
+7959 Essen Park Avenue, Baton Rouge,
+LA 70809, USA
+Delivery Date/Time
+FCFS
+11/12/2024 12:00 - 14:00 CT
+Planned Date and Time Range
+-
+Location Hours
+12:00 - 14:00 CT
+Appt #
+NA
+Delivery #
+NA
+PO #
+NA
+
+-------------------
+
+Load #8070417
+Order #
+1818 ca419
+|
+Quote #
+d97c 55d7e
+|
+Available
+|
+Southeast
+Beon Carrier Copy
+Manage Posting
+Origin
+11/11/2024
+Hebron, KY
+14:00 ET
+Destination
+11/12/2024
+Irvington, VA
+11:00 ET
+CENTRAL OCEANS USA, LLC
+Joshua Loukotka
+Spot
+General Information Map It
+Equipment Group Icon
+48FT Flatbed
+# Of Stops
+02
+Distance (Miles)
+579
+Weight (Lbs)
+300,064.00
+# of Pallets
+29
+Packaging Type
+PALLETS
+CTR#
+-
+Cargo Category
+Electronics / Appliances
+Cargo Value
+$50,000.00-$100,000.00
+PO#
+TB00002407
+Shipment ID
+NA
+BOL#
+NA
+MBOL#
+NA
+Stop Info and Reference #s
+AUI PARTNERS, LLC
+2360 AIRPORT DR, Hebron,
+KY 41048, USA
+Pickup Date/Time
+APPT
+11/11/2024 14:00 ET
+Scheduled by , 11/07/2024 10:21 -05
+Planned Date and Time Range
+-
+Location Hours
+08:00 - 15:00 ET
+Appt #
+NA
+Pickup #
+L240911 – 157
+PO #
+NA
+Stop Special Requirements
+-
+Instructions
+Please have the DO in hand prior to pickup and signed off by the shipper before departing
+SANDALE PROJECT
+265 Old Salem Road, Irvington,
+VA 22480, USA
+Delivery Date/Time
+APPT
+11/12/2024 11:00 ET
+Scheduled by , 11/07/2024 10:21 -05
+Planned Date and Time Range
+-
+Location Hours
+07:00 - 15:00 ET
+Appt #
+NA
+Delivery #
+NA
+PO #
+NA
+
+-------------------
+
+Load #8073239
+Order #
+d7c6 65eba
+|
+Quote #
+8a11 23007
+|
+Available
+|
+West
+Beon Carrier Copy
+Manage Posting
+Origin
+11/11/2024
+Pontotoc, MS
+08:00 - 14:00 CT
+Destination
+11/14/2024
+Lemoore, CA
+08:00 - 16:00 PT
+ECS - EATON CUSTOM SEATING, LLC
+Jeffrey Hillman
+Spot
+General Information Map It
+Equipment Group Icon
+Large Straight Truck w/ Lift Gate
+26 FT Required
+# Of Stops
+02
+Distance (Miles)
+2,002
+Weight (Lbs)
+4,000.00
+# of Boxes
+-
+Packaging Type
+BOXES
+CTR#
+-
+Cargo Category
+Furniture
+Cargo Value
+$1,000.00-$50,000.00
+PO#
+TACHI PALACE CASINO RESORT
+Shipment ID
+NA
+BOL#
+NA
+MBOL#
+NA
+Stop Info and Reference #s
+EATON CUSTOM SEATING
+263 Coffee Street, Pontotoc,
+MS 38863, USA
+Pickup Date/Time
+FCFS
+11/11/2024 08:00 - 14:00 CT
+Planned Date and Time Range
+-
+Location Hours
+08:00 - 14:00 CT
+Appt #
+NA
+Pickup #
+NA
+PO #
+NA
+Stop Special Requirements
+-
+Instructions
+FULL OF TASK CHAIRS
+Cargo Description
+PO #
+Quantity
+Cargo Weight (Lbs)
+Packaging Type
+-
+-
+-
+4,000.00
+-
+TACHI PALACE CASINO RESORT
+17225 Jersey Avenue, Lemoore,
+CA 93245, USA
+Delivery Date/Time
+FCFS
+11/14/2024 08:00 - 16:00 PT
+Planned Date and Time Range
+-
+Location Hours
+08:00 - 16:00 PT
+Appt #
+NA
+Delivery #
+NA
+PO #
+NA
+
+-------------------
+
+Load #8070420
+Order #
+c852 3471a
+|
+Quote #
+d97c 55d7e
+|
+Available
+|
+Southeast
+Beon Carrier Copy
+Manage Posting
+Origin
+11/11/2024
+Hebron, KY
+13:00 ET
+Destination
+11/12/2024
+Irvington, VA
+10:00 ET
+CENTRAL OCEANS USA, LLC
+Joshua Loukotka
+Spot
+General Information Map It
+Equipment Group Icon
+48FT Flatbed
+# Of Stops
+02
+Distance (Miles)
+579
+Weight (Lbs)
+22,813.00
+# Of Pallets
+18
+Packaging Type
+-
+CTR#
+-
+Cargo Category
+Electronics / Appliances
+Cargo Value
+$50,000.00-$100,000.00
+PO#
+TB00002406
+Shipment ID
+NA
+BOL#
+NA
+MBOL#
+NA
+Stop Info and Reference #s
+AUI PARTNERS, LLC
+2360 AIRPORT DR, Hebron,
+KY 41048, USA
+Pickup Date/Time
+APPT
+11/11/2024 13:00 ET
+Scheduled by , 11/07/2024 10:19 -05
+Planned Date and Time Range
+-
+Location Hours
+08:00 - 15:00 ET
+Appt #
+NA
+Pickup #
+L240911- 162
+PO #
+NA
+Stop Special Requirements
+-
+Instructions
+Please have the DO in hand prior to pickup and signed off by the shipper before departing
+SANDALE PROJECT
+265 Old Salem Road, Irvington,
+VA 22480, USA
+Delivery Date/Time
+APPT
+11/12/2024 10:00 ET
+Scheduled by , 11/07/2024 10:19 -05
+Planned Date and Time Range
+-
+Location Hours
+07:00 - 15:00 ET
+Appt #
+NA
+Delivery #
+NA
+PO #
+NA
+
+-------------------
+
+Load #8065016
+Order #
+bdfb 2822c
+|
+Quote #
+5a66 cd7c0
+|
+Available
+|
+West
+Beon Carrier Copy
+Manage Posting
+Origin
+11/11/2024
+San Bernardino, CA
+13:00 PT
+Destination
+11/12/2024
+Salt Lake City, UT
+09:00 MT
+MAPEI CORPORATION
+Eli Weiner
+General Information Map It
+Equipment Group Icon
+53FT Dry Van
+# Of Stops
+02
+Distance (Miles)
+633
+Weight (Lbs)
+40,502.99
+# Of Pallets
+-
+Packaging Type
+-
+CTR#
+-
+Cargo Category
+Chemicals
+Cargo Value
+$50,000.00-$100,000.00
+PO#
+857536180
+Shipment ID
+857536180
+BOL#
+24E9221273
+MBOL#
+NA
+Stop Info and Reference #s
+California Plant C1
+5415 Industrial Parkway, San Bernardino,
+CA 92407, USA
+Pickup Date/Time
+APPT
+11/11/2024 13:00 PT
+Scheduled by , 11/06/2024 08:59 -05
+Planned Date and Time Range
+11/11/2024 05:00 PT-11/11/2024 05:00 PT
+Location Hours
+13:00 - 13:00 PT
+Appt #
+NA
+Pickup #
+24E9221273
+PO #
+NA
+Stop Special Requirements
+-
+Instructions
+**DETENTION IS 3 HOURS FREE AT SHIPPER / SLIDING TANDEMS REQUIRED**
+Cargo Description
+PO #
+Quantity
+Cargo Weight (Lbs)
+Packaging Type
+ADHESIVES
+-
+-
+40,502.99
+-
+FLOOR & DECOR
+1580 South 500 West, Salt Lake City,
+UT 84115, USA
+Delivery Date/Time
+APPT
+11/12/2024 09:00 MT
+Scheduled by , 11/06/2024 08:59 -05
+Planned Date and Time Range
+11/12/2024 14:00 MT-11/12/2024 15:00 MT
+Location Hours
+09:00 - 09:00 MT
+Appt #
+NA
+Delivery #
+24E9221273
+PO #
+1001901305
+
+-------------------
+
+Load #8069139
+Order #
+a16d d9806
+|
+Available
+|
+Southeast
+Beon Carrier Copy
+Do Not Post
+Origin
+11/11/2024
+Fort Worth, TX
+12:30 CT
+Destination
+11/13/2024
+Morrow, GA
+05:00 ET
+LG ELECTRONICS
+Joshua Loukotka
+ContractedPrimary
+2/Weekly
+
+78/Annually
+
+General Information Map It
+Equipment Group Icon
+53FT Dry Van
+# Of Stops
+02
+Distance (Miles)
+841
+Weight (Lbs)
+9,884.70
+# Of Pallets
+310
+Packaging Type
+-
+CTR#
+-
+Cargo Category
+Electronics / Appliances
+Cargo Value
+$100,000.00-$150,000.00
+PO#
+15769145
+Shipment ID
+15769145
+BOL#
+14402150
+MBOL#
+NA
+Stop Info and Reference #s
+NTX_US-NORTH TEXAS WAREHOUSE, NTX
+14901 N Beach St, Fort Worth,
+TX 76177-2722, USA
+Pickup Date/Time
+APPT
+11/11/2024 12:30 CT
+Scheduled by , 11/06/2024 09:42 -05
+Planned Date and Time Range
+11/11/2024 10:00 CT-11/11/2024 10:00 CT
+Location Hours
+07:00 - 17:00 CT
+Appt #
+NA
+Pickup #
+NA
+PO #
+T004751594; T004751595; T004751605; T004752027
+Stop Special Requirements
+-
+Instructions
+PALLETIZED Must drive 150 miles once loaded. US Licenses only, no international. DOT on side of truck must match booked DOT. Must be on Macropoint prior to arriving to shipper and throughout transit or rate will be reduced.. Must drive 150 miles after leaving shipper before stopping..
+Cargo Description
+PO #
+Quantity
+Cargo Weight (Lbs)
+Packaging Type
+-
+-
+310
+9,884.70
+-
+ALMO PROFESSIONAL A/V, LLC
+7139 Southlake Parkway, Morrow,
+GA 30260, USA
+Delivery Date/Time
+APPT
+11/13/2024 05:00 ET
+Scheduled by , 11/06/2024 09:34 -05
+Planned Date and Time Range
+11/13/2024 05:00 ET-11/13/2024 05:00 ET
+Location Hours
+05:00 - 12:00 ET
+Appt #
+NA
+Delivery #
+4A0678
+PO #
+4A1952; 4A0678
+
+-------------------
+
+Load #8075937
+Order #
+a146 807a9
+|
+Available
+|
+Southwest
+Beon Carrier Copy
+Do Not Post
+Origin
+11/11/2024
+Rialto, CA
+12:30 PT
+Destination
+11/14/2024
+Missouri City, TX
+07:30 CT
+LG ELECTRONICS
+Joshua Loukotka
+General Information Map It
+Equipment Group Icon
+53FT Dry Van
+# Of Stops
+02
+Distance (Miles)
+1,505
+Weight (Lbs)
+11,964.55
+# Of Pallets
+135
+Packaging Type
+-
+CTR#
+-
+Cargo Category
+Electronics / Appliances
+Cargo Value
+$200,000.00+
+PO#
+15772842
+Shipment ID
+15772842
+BOL#
+20317905
+MBOL#
+NA
+Stop Info and Reference #s
+LGE US DC SIERRA (N1F), FONTANA, CA
+5550 Mango Avenue, Rialto,
+CA 92377, USA
+Pickup Date/Time
+APPT
+11/11/2024 12:30 PT
+Scheduled by , 11/08/2024 07:00 -05
+Planned Date and Time Range
+11/11/2024 10:00 PT-11/11/2024 10:00 PT
+Location Hours
+08:00 - 20:00 PT
+Appt #
+NA
+Pickup #
+NA
+PO #
+3005055087
+Stop Special Requirements
+-
+Instructions
+BBY ARN 88236893 Carrier Must drive 150 miles once loaded. US Licenses only, no international. DOT on side of truck must match booked DOT. Must be on Macropoint prior to arriving to shipper and throughout transit or rate will be reduced.. 09 03 MESA 3 LIVE LOAD Must drive 150 miles once loaded. US Licenses only, no international. DOT on side of truck must match booked DOT. Must be on Macropoint prior to arriving to shipper and throughout transit or rate will be reduced..
+Cargo Description
+PO #
+Quantity
+Cargo Weight (Lbs)
+Packaging Type
+-
+-
+135
+11,964.55
+-
+BEST BUY CO., INC. DDC #2607
+636 Highway 90 A, Missouri City,
+TX 77489-1306, USA
+Delivery Date/Time
+APPT
+11/14/2024 07:30 CT
+Scheduled by , 11/08/2024 06:58 -05
+Planned Date and Time Range
+11/14/2024 07:30 CT-11/14/2024 07:30 CT
+Location Hours
+06:00 - 12:00 CT
+Appt #
+NA
+Delivery #
+88236893
+PO #
+TIKDON
+Stop Special Requirements
