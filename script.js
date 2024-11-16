@@ -154,7 +154,21 @@ document.getElementById("processButton").addEventListener("click", () => {
     return datosPaquetes;
   }
   
+  function eliminarDuplicadosPorLoad(datos) {
+    const loadSet = new Set();  // Usamos un Set para almacenar los valores de 'Load'
+    return datos.filter((item) => {
+      if (loadSet.has(item.Load)) {
+        return false;  // Si el 'Load' ya está en el Set, lo omitimos
+      }
+      loadSet.add(item.Load);  // Si no está, lo agregamos al Set
+      return true;
+    });
+  }
+  
   function displayTable(data) {
+    // Eliminar duplicados por 'Load'
+    const dataSinDuplicados = eliminarDuplicadosPorLoad(data);
+  
     const ordenEncabezados = [
       "Pickup Earliest*",
       "Pickup Latest",
@@ -187,7 +201,7 @@ document.getElementById("processButton").addEventListener("click", () => {
     const tableContainer = document.getElementById("tableContainer");
     tableContainer.innerHTML = ""; // Limpia contenido previo
   
-    if (!data.length) {
+    if (!dataSinDuplicados.length) {
       tableContainer.innerHTML = "<p>No se encontraron datos para mostrar.</p>";
       return;
     }
@@ -206,7 +220,7 @@ document.getElementById("processButton").addEventListener("click", () => {
     thead.appendChild(tr);
   
     // Crear filas en el orden especificado
-    data.forEach((row) => {
+    dataSinDuplicados.forEach((row) => {
       const tr = document.createElement("tr");
       ordenEncabezados.forEach((header) => {
         const td = document.createElement("td");
@@ -220,4 +234,3 @@ document.getElementById("processButton").addEventListener("click", () => {
     table.appendChild(tbody);
     tableContainer.appendChild(table);
   }
-  
