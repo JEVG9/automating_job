@@ -20,6 +20,7 @@ document.getElementById("processButton").addEventListener("click", () => {
   });
   
   function processFile(content) {
+    // Dividir el contenido en bloques según "Load #", usando una expresión regular
     const bloques = content.split(/(?=Load #\d+)/).filter((bloque) => bloque.trim());
     const datosPaquetes = [];
   
@@ -33,13 +34,9 @@ document.getElementById("processButton").addEventListener("click", () => {
     }
   
     function carroType(eqp) {
-      console.log("Leyendo eqp: ", eqp);
-      // Convertir eqp a minúsculas para evitar problemas con mayúsculas y minúsculas
       eqp = eqp.toLowerCase();
-  
-      // Verificar las condiciones y devolver el tamaño y tipo de equipo
       if (eqp.includes("53ft reefer")) {
-        return [53, "R"]; // Tipo y tamaño correcto para "53FT Reefer"
+        return [53, "R"];
       }
       if (eqp.includes("53ft flatbed")) {
         return [53, "F"];
@@ -50,14 +47,14 @@ document.getElementById("processButton").addEventListener("click", () => {
       if (eqp.includes("53ft dry van")) {
         return [53, "V"];
       }
-      return [1, "V"]; // Valor por defecto si no se encuentra un tipo reconocido
+      return [1, "V"];
     }
   
     bloques.forEach((bloque, index) => {
       // Verificar si el bloque contiene "Drayage Import" y omitirlo si es así
       if (bloque.includes("Drayage Import")) {
         console.log("El bloque contiene 'Drayage Import', omitiéndolo.");
-        return; // Salir de la función y no procesar este bloque
+        return; 
       }
   
       const datos = {
@@ -82,8 +79,8 @@ document.getElementById("processButton").addEventListener("click", () => {
         "Destination City": "tbd",
         "Destination State": "tbd",
         "Destination Postal Code": "tbd",
-        Comment: `EMAIL ME JESUS.VEGA@NTGFREIGHT.COM | LOAD ID=${index+1}`,
-        Commodity: "tbd",
+        Comment: `EMAIL ME JESUS.VEGA@NTGFREIGHT.COM | LOAD ID=${index + 1}`,
+        Commodity: "tbd",  // Inicializar como "tbd"
         "Reference ID": index + 1,
         Load: "tbd"
       };
@@ -91,7 +88,6 @@ document.getElementById("processButton").addEventListener("click", () => {
       const lineas = bloque.split("\n").map((linea) => linea.trim());
       const zipCodes = bloque.match(zipCodePattern);
   
-      let foundReefer = false;
       let equipoTemp = "";
   
       lineas.forEach((linea, i) => {
@@ -107,7 +103,6 @@ document.getElementById("processButton").addEventListener("click", () => {
           datos["Origin State"] = estadoOrigen || "tbd";
           datos["Origin Postal Code"] = zipCodes?.[0] || "tbd";
         } else if (linea.startsWith("Equipment Group Icon")) {
-          // Aquí empezamos a guardar las líneas siguientes para evaluar el tipo de equipo
           let equipoData = "";
           for (let j = i + 1; j < lineas.length; j++) {
             if (lineas[j].includes("# Of Stops")) break;
@@ -124,10 +119,15 @@ document.getElementById("processButton").addEventListener("click", () => {
         } else if (linea.startsWith("Weight (Lbs)")) {
           const peso = lineas[i + 1]?.replace(",", "").trim();
           datos["Weight (lbs)"] = peso ? parseInt(peso, 10) : "tbd";
+        } else if (linea.startsWith("Cargo Category")) {
+          const cargoCategory = lineas[i + 1]?.trim();
+          if (cargoCategory) {
+            datos["Commodity"] = cargoCategory;  // Asignar el valor de Cargo Category al campo Commodity
+          }
         }
       });
   
-      // Ahora aplicamos la función carroType usando el equipo guardado después de "Equipment Group Icon"
+      // Evaluar el tipo de equipo con la función carroType
       const [length, equipmentType] = carroType(equipoTemp);
       datos["Length (ft)"] = length;
       datos["Equipment"] = equipmentType;
@@ -137,6 +137,7 @@ document.getElementById("processButton").addEventListener("click", () => {
   
     return datosPaquetes;
   }
+  
   
   
   function displayTable(data) {
@@ -203,5 +204,4 @@ document.getElementById("processButton").addEventListener("click", () => {
     table.appendChild(thead);
     table.appendChild(tbody);
     tableContainer.appendChild(table);
-  }
-  
+}
