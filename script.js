@@ -1,111 +1,105 @@
-function handleFile() {
-    const fileInput = document.getElementById('fileInput');
-    const file = fileInput.files[0];
-    if (!file) {
-        alert("Por favor selecciona un archivo");
+document.getElementById("processButton").addEventListener("click", () => {
+    const fileInput = document.getElementById("fileInput");
+    const tableContainer = document.getElementById("tableContainer");
+
+    if (!fileInput.files.length) {
+        alert("Por favor, selecciona un archivo .txt.");
         return;
     }
 
+    const file = fileInput.files[0];
     const reader = new FileReader();
-    reader.onload = function(e) {
-        const text = e.target.result;
-        const datos_paquetes = converter(text);
-        displayResults(datos_paquetes);
-        enableDownload(datos_paquetes);
+
+    reader.onload = (event) => {
+        const content = event.target.result;
+        const data = processFile(content);
+        displayTable(data);
     };
 
     reader.readAsText(file);
-}
+});
 
-function converter(text) {
-    const datos_paquetes = [];
-    const zip_code_pattern = /\b\d{5}(?:-\d{4})?\b|\b[A-Za-z]\d[A-Za-z] \d[A-Za-z]\d\b/;
-    const bloques = text.split("\n-------------------\n");
+function processFile(content) {
+    const bloques = content.split("-------------------").filter(bloque => bloque.trim()); // Divide y elimina bloques vacíos
+    const datosPaquetes = [];
 
-    bloques.forEach((bloque, contador) => {
-        const datos = {};
-        const lineas = bloque.split("\n");
-        const zip_codes = bloque.match(zip_code_pattern) || [];
+    const zipCodePattern = /\b\d{5}(?:-\d{4})?\b|\b[A-Za-z]\d[A-Za-z] \d[A-Za-z]\d\b/g;
+
+    function separarCiudadEstado(ubicacion) {
+        const partes = ubicacion.split(",");
+        return partes.length === 2 ? [partes[0].trim(), partes[1].trim()] : [null, null];
+    }
+
+    function carroType(eqp) {
+        if (eqp === "48FT Flatbed") return [48, "F"];
+        if (eqp === "53FT Flatbed") return [53, "F"];
+        if (eqp === "53FT Dry Van") return [53, "V"];
+        return [1, "V"];
+    }
+
+    bloques.forEach((bloque, index) => {
+        const datos = {
+            "Pickup Earliest": "tbd",
+            "Pickup Latest": "tbd",
+            "Length (ft)": "tbd",
+            "Weight (lbs)": "tbd",
+            "Full/Partial": "Full",
+            "Equipment": "tbd",
+            "Use Private Network": "no",
+            "Private Network Rate": "tbd",
+            "Allow Private Network Booking": "no",
+            "Allow Private Network Bidding": "no",
+            "Use DAT Loadboard": "yes",
+            "DAT Loadboard Rate": "tbd",
+            "Allow DAT Loadboard Booking": "no",
+            "Use Extended Network": "no",
+            "Contact Method": "Both",
+            "Origin City": "tbd",
+            "Origin State": "tbd",
+            "Origin Postal Code": "tbd",
+            "Destination City": "tbd",
+            "Destination State": "tbd",
+            "Destination Postal Code": "tbd",
+            "Comment": "N/A",
+            "Commodity": "tbd",
+            "Reference ID": index + 1,
+            "Load": "tbd",
+        };
+
+        const lineas = bloque.split("\n").map(linea => linea.trim());
+        const zipCodes = bloque.match(zipCodePattern);
 
         lineas.forEach((linea, i) => {
-            if (linea.includes("Origin")) {
-                datos['Pickup Earliest*'] = lineas[i + 1].trim();
-                datos["Pickup Latest"] = datos['Pickup Earliest*'];
-                const origin_location = lineas[i + 2].trim();
-                const [ciudad_origen, estado_origen] = separarCiudadEstado(origin_location);
-                datos['Origin City*'] = ciudad_origen;
-                datos['Origin State*'] = estado_origen;
-                datos["Origin Postal Code"] = zip_codes[0];
-            }
-            if (linea.includes("Equipment Group Icon")) {
-                const [length, typec] = carroType(lineas[i + 1].trim());
-                datos["Length (ft)*"] = length;
-                datos["Equipment*"] = typec;
-            }
-            if (linea.includes("Destination")) {
-                const destination_data = lineas[i + 2].trim();
-                const [ciudad_destino, estado_destino] = separarCiudadEstado(destination_data);
-                datos['Destination City*'] = ciudad_destino;
-                datos['Destination State*'] = estado_destino;
-                datos["Destination Postal Code"] = zip_codes[1];
-            }
-            if (linea.includes("Weight (Lbs)")) {
-                const string_con_formato = lineas[i + 1].trim();
-                if (string_con_formato !== "Packaging Type") {
-                    const numero_sin_formato = parseFloat(string_con_formato.replace(",", "").replace(/\.?0*$/, ""));
-                    datos['Weight (lbs)*'] = String(Math.round(numero_sin_formato));
-                }
-            }
-            if (linea.includes("Load #")) {
-                const load = linea.split(" ")[1];
-                datos['Load'] = load.slice(1);
+            if (linea.startsWith("Load #")) {
+                datos["Load"] = linea.split(" ")[1] || "tbd";
+            } else if (linea.startsWith("Origin")) {
+                datos["Pickup Earliest"] = lineas[i + 1]?.trim() || "tbd";
+                datos["Pickup Latest"] = datos["Pickup Earliest"];
+                const [ciudadOrigen, estadoOrigen] = separarCiudadEstado(lineas[i + 2]?.trim());
+                datos["Origin City"] = ciudadOrigen || "tbd";
+                datos["Origin State"] = estadoOrigen || "tbd";
+                datos["Origin Postal Code"] = zipCodes?.[0] || "tbd";
+            } else if (linea.startsWith("Equipment Group Icon")) {
+                [datos["Length (ft)"], datos["Equipment"]] = carroType(lineas[i + 1]?.trim() || "tbd");
+            } else if (linea.startsWith("Destination")) {
+                const [ciudadDestino, estadoDestino] = separarCiudadEstado(lineas[i + 2]?.trim());
+                datos["Destination City"] = ciudadDestino || "tbd";
+                datos["Destination State"] = estadoDestino || "tbd";
+                datos["Destination Postal Code"] = zipCodes?.[1] || "tbd";
+            } else if (linea.startsWith("Weight (Lbs)")) {
+                const peso = lineas[i + 1]?.replace(",", "").trim();
+                datos["Weight (lbs)"] = peso ? parseInt(peso, 10) : "tbd";
             }
         });
 
-        datos["Reference ID"] = `${contador + 1}`;
-        datos["Commodity"] = "tbd";
-        datos["Full/Partial*"] = "Full";
-        datos["Use Private Network*"] = "no";
-        datos["Private Network Rate"] = "";
-        datos["Allow Private Network Booking"] = "no";
-        datos["Allow Private Network Bidding"] = "no";
-        datos["Use DAT Loadboard*"] = "yes";
-        datos["DAT Loadboard Rate"] = "";
-        datos["Allow DAT Loadboard Booking"] = "no";
-        datos["Use Extended Network"] = "no";
-        datos["Contact Method*"] = "email";
-        datos["Comment"] = `EMAIL ME JESUS.VEGA@NTGFREIGHT.COM | LOAD ID=${contador + 1}`;
-
-        datos_paquetes.push(datos);
+        datosPaquetes.push(datos);
     });
 
-    return datos_paquetes;
+    return datosPaquetes;
 }
 
-function separarCiudadEstado(ubicacion) {
-    const partes = ubicacion.split(",");
-    return partes.length === 2 ? [partes[0].trim(), partes[1].trim()] : [null, null];
-}
-
-function carroType(eqp) {
-    let length = 1;
-    let typec = "V";
-    if (eqp === "48FT Flatbed") {
-        length = 48;
-        typec = "F";
-    } else if (eqp === "53FT Flatbed") {
-        length = 53;
-        typec = "F";
-    } else if (eqp === "53FT Dry Van") {
-        length = 53;
-        typec = "V";
-    }
-    return [length, typec];
-}
-
-function displayResults(datos_paquetes) {
-    const table = document.getElementById("resultTable");
-    const headers = [
+function displayTable(data) {
+    const ordenEncabezados = [
         "Pickup Earliest*", "Pickup Latest", "Length (ft)*", "Weight (lbs)*", "Full/Partial*",
         "Equipment*", "Use Private Network*", "Private Network Rate", "Allow Private Network Booking",
         "Allow Private Network Bidding", "Use DAT Loadboard*", "DAT Loadboard Rate",
@@ -114,63 +108,39 @@ function displayResults(datos_paquetes) {
         "Destination State*", "Destination Postal Code", "Comment", "Commodity", "Reference ID", "Load"
     ];
 
-    // Clear previous results
-    table.innerHTML = "";
+    const tableContainer = document.getElementById("tableContainer");
+    tableContainer.innerHTML = ""; // Limpia contenido previo
 
-    // Add headers
-    const headerRow = document.createElement("tr");
-    headers.forEach(header => {
+    if (!data.length) {
+        tableContainer.innerHTML = "<p>No se encontraron datos para mostrar.</p>";
+        return;
+    }
+
+    const table = document.createElement("table");
+    const thead = document.createElement("thead");
+    const tbody = document.createElement("tbody");
+
+    // Crear encabezados en el orden especificado
+    const tr = document.createElement("tr");
+    ordenEncabezados.forEach((header) => {
         const th = document.createElement("th");
         th.textContent = header;
-        headerRow.appendChild(th);
+        tr.appendChild(th);
     });
-    table.appendChild(headerRow);
+    thead.appendChild(tr);
 
-    // Add rows for each package
-    datos_paquetes.forEach(paquete => {
-        const row = document.createElement("tr");
-        headers.forEach(header => {
+    // Crear filas en el orden especificado
+    data.forEach((row) => {
+        const tr = document.createElement("tr");
+        ordenEncabezados.forEach((header) => {
             const td = document.createElement("td");
-            td.textContent = paquete[header] || "";
-            row.appendChild(td);
+            td.textContent = row[header.replace("*", "")] || ""; // Remueve el asterisco para buscar claves en el objeto
+            tr.appendChild(td);
         });
-        table.appendChild(row);
-    });
-}
-
-function enableDownload(datos_paquetes) {
-    const downloadButton = document.getElementById('downloadButton');
-    downloadButton.style.display = 'inline-block';
-
-    // Convert to CSV
-    const csvContent = convertToCSV(datos_paquetes);
-    const csvBlob = new Blob([csvContent], { type: 'text/csv' });
-    const csvUrl = URL.createObjectURL(csvBlob);
-
-    // Set download link
-    downloadButton.onclick = function() {
-        const link = document.createElement('a');
-        link.href = csvUrl;
-        link.download = 'resultados.csv';
-        link.click();
-    };
-}
-
-function convertToCSV(datos_paquetes) {
-    const headers = [
-        "Pickup Earliest*", "Pickup Latest", "Length (ft)*", "Weight (lbs)*", "Full/Partial*",
-        "Equipment*", "Use Private Network*", "Private Network Rate", "Allow Private Network Booking",
-        "Allow Private Network Bidding", "Use DAT Loadboard*", "DAT Loadboard Rate",
-        "Allow DAT Loadboard Booking", "Use Extended Network", "Contact Method*",
-        "Origin City*", "Origin State*", "Origin Postal Code", "Destination City*",
-        "Destination State*", "Destination Postal Code", "Comment", "Commodity", "Reference ID", "Load"
-    ];
-
-    let csv = headers.join(',') + '\n';
-
-    datos_paquetes.forEach(paquete => {
-        const row = headers.map(header => paquete[header] || "").join(',');
-        csv += row + '\n';
+        tbody.appendChild(tr);
     });
 
-    return csv
+    table.appendChild(thead);
+    table.appendChild(tbody);
+    tableContainer.appendChild(table);
+}
