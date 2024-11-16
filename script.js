@@ -47,14 +47,26 @@ document.getElementById("processButton").addEventListener("click", () => {
       if (eqp.includes("53ft dry van")) {
         return [53, "V"];
       }
+      if (eqp.includes("step deck")) { // Nuevo caso para "Step Deck"
+        return [53, "SD"]; // Longitud 53, símbolo "SD"
+      }
       return [1, "V"];
+    }
+  
+    // Función para asignar el valor en la columna DAT
+    function asignarDAT(length, eqp) {
+      if (length === 1 && eqp === "V") {
+        return "no";  // Si Length (ft) es 1 y el equipo es "V"
+      } else {
+        return "si";  // En cualquier otro caso
+      }
     }
   
     bloques.forEach((bloque, index) => {
       // Verificar si el bloque contiene "Drayage Import" y omitirlo si es así
       if (bloque.includes("Drayage Import")) {
         console.log("El bloque contiene 'Drayage Import', omitiéndolo.");
-        return; 
+        return;
       }
   
       const datos = {
@@ -82,7 +94,8 @@ document.getElementById("processButton").addEventListener("click", () => {
         Comment: `EMAIL ME JESUS.VEGA@NTGFREIGHT.COM | LOAD ID=${index + 1}`,
         Commodity: "tbd",  // Inicializar como "tbd"
         "Reference ID": index + 1,
-        Load: "tbd"
+        Load: "tbd",
+        "DAT": "si"  // Columna DAT con valor por defecto
       };
   
       const lineas = bloque.split("\n").map((linea) => linea.trim());
@@ -132,13 +145,14 @@ document.getElementById("processButton").addEventListener("click", () => {
       datos["Length (ft)"] = length;
       datos["Equipment"] = equipmentType;
   
+      // Asignar el valor de DAT
+      datos["DAT"] = asignarDAT(length, equipmentType);
+  
       datosPaquetes.push(datos);
     });
   
     return datosPaquetes;
   }
-  
-  
   
   function displayTable(data) {
     const ordenEncabezados = [
@@ -166,7 +180,8 @@ document.getElementById("processButton").addEventListener("click", () => {
       "Comment",
       "Commodity",
       "Reference ID",
-      "Load"
+      "Load",
+      "DAT"  // Nueva columna DAT
     ];
   
     const tableContainer = document.getElementById("tableContainer");
@@ -204,4 +219,5 @@ document.getElementById("processButton").addEventListener("click", () => {
     table.appendChild(thead);
     table.appendChild(tbody);
     tableContainer.appendChild(table);
-}
+  }
+  
